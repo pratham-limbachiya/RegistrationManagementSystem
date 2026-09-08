@@ -1,0 +1,103 @@
+<div class="dashboard">
+    <header class="dashboard-header">
+        <div>
+            <h1>Dashboard</h1>
+            <p>Welcome back to your dashboard</p>
+        </div>
+        <button class="logout-btn" (click)="logout()">Logout</button>
+    </header>
+    <!-- Success Message -->
+    @if (message()) {
+    <div class="success-alert">
+        <span class="success-icon">✓</span>
+        <div>
+            <strong>{{ message() }}</strong>
+            <p>You have successfully logged in.</p>
+        </div>
+    </div>
+    }
+    <!-- User Information -->
+    <div class="card">
+        <div class="card-header">
+            <div>
+                <h2>User Information</h2>
+                <p>Your profile details</p>
+            </div>
+        </div>
+        <!-- FILTER -->
+        <div class="filter-container">
+            <!-- Column Dropdown -->
+            <select class="filter-dropdown" [value]="selectedColumn()" (change)="onColumnChange($event)">
+                @for (column of filterColumns; track column.value) {
+                <option [value]="column.value">{{ column.label }}</option>
+                }
+            </select>
+            <!-- Search Box -->
+            <div class="search-box">
+                <input type="text" placeholder="Search..." [value]="searchText()" (input)="onSearch($event)" />
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+        <!-- TABLE -->
+        @if (filteredUsers().length > 0) {
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Gender</th>
+                        <th>Date of Birth</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>Pincode</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (user of filteredUsers(); track user.SrNo) {
+                    <tr>
+                        <td>{{ user.SrNo }}</td>
+                        <td>
+                            <div class="user-name">
+                                <div class="avatar">{{ user.Name?.charAt(0) }}</div>
+                                <span>{{ user.Name }}</span>
+                            </div>
+                        </td>
+                        <td>{{ user.Username }}</td>
+                        <td>
+                            <span class="gender">{{ user.Gender }}</span>
+                        </td>
+                        <td>{{ user.DateOfBirth | date:'dd-MM-yyyy' }}</td>
+                        <td class="address">{{ user.Address }}</td>
+                        <td>{{ user.CityName }}</td>
+                        <td>{{ user.StateName }}</td>
+                        <td>{{ user.Pincode }}</td>
+                        <td>
+                            <div class="action-buttons">
+                                <!-- Edit -->
+                                <button type="button" class="edit-btn" (click)="editUser(user)" title="Edit">
+                                    ✏️</button>
+                                <!-- Delete -->
+                                <button type="button" class="delete-btn" (click)="deleteUser(user.RegistrationId)"
+                                    title="Delete">🗑️
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        }
+        @else {
+        <div class="empty-state">
+            <div class="empty-icon">🔍</div>
+            <h3>No Records Found</h3>
+            <p>No users match your search criteria.</p>
+        </div>
+        }
+    </div>
+</div>

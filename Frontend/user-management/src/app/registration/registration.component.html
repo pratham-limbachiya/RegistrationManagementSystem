@@ -1,0 +1,134 @@
+<div class="container">
+  <div class="card">
+    <h2>User Registration</h2>
+    <p class="subtitle">Please fill in your information</p>
+    <form autocomplete="off">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input id="name" type="text" placeholder="Enter your full name" [(ngModel)]="user.name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="Enter username" [(ngModel)]="user.username" name="username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <div class="password-wrapper">
+          <input id="password" [type]="showPassword() ? 'text' : 'password'" placeholder="Enter password"
+            [(ngModel)]="user.password" name="password" autocomplete="new-password">
+          <button type="button" class="password-toggle" (click)="togglePassword()"
+            [attr.aria-label]="showPassword() ? 'Hide password' : 'Show password'">
+            <i class="bi" [class.bi-eye]="!showPassword()" [class.bi-eye-slash]="showPassword()">
+            </i>
+          </button>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="dateOfBirth">Date of Birth</label>
+        <input id="dateOfBirth" type="date" [(ngModel)]="user.dateOfBirth" name="dateOfBirth">
+      </div>
+      <div class="form-group">
+        <label>Gender</label>
+        <div class="radio-group">
+          <label>
+            <input type="radio" value="Male" [(ngModel)]="user.gender" name="gender">
+            Male
+          </label>
+          <label>
+            <input type="radio" value="Female" [(ngModel)]="user.gender" name="gender">
+            Female
+          </label>
+          <label>
+            <input type="radio" value="Other" [(ngModel)]="user.gender" name="gender">
+            Other
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Hobbies</label>
+        <div class="checkbox-group">
+          @for (hobby of hobbies; track hobby) {
+          <label>
+            <input type="checkbox" [checked]="user.hobbies.includes(hobby)" (change)="onHobbyChange(hobby, $event)">
+            {{ hobby }}
+          </label>
+          }
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea id="address" rows="4" placeholder="Enter your address" [(ngModel)]="user.address" name="address"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="state">State</label>
+        <select id="state" [(ngModel)]="user.stateId" name="stateId" (change)="onStateChange()">
+          <option [ngValue]="0"> Select State</option>
+          @for (state of states(); track state.StateId) {
+          <option [ngValue]="state.StateId">{{ state.StateName }}</option>
+          }
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="city">City</label>
+        <select id="city" [(ngModel)]="user.cityId" name="cityId">
+          <option [ngValue]="0">Select City</option>
+          @for (city of cities(); track city.CityId) {
+          <option [ngValue]="city.CityId">{{ city.CityName }}</option>
+          }
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="pincode">Pincode</label>
+        <input id="pincode" type="text" maxlength="6" placeholder="Enter pincode" [(ngModel)]="user.pincode"
+          name="pincode">
+      </div>
+      <div class="form-group">
+        <label for="documents">Upload Documents</label>
+        <div class="upload-row">
+          <input id="documents" type="file" multiple (change)="onFileChange($event)" />
+          @if (selectedFiles().length > 0) {
+          <button type="button" class="preview-icon" title="Preview"
+            (click)="previewFile(selectedFiles()[selectedFiles().length - 1])">
+            <i class="bi bi-eye"></i>
+          </button>
+          }
+        </div>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-primary" type="button" (click)="submitForm($event)">
+          {{ selectedId() === 0 ? 'Submit' : 'Update' }}
+        </button>
+        <button class="btn btn-secondary" type="button" (click)="resetForm()">
+          Reset
+        </button>
+      </div>
+      <div class="login-link">
+        Already have an account?
+        <a routerLink="/login">Login</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Preview Popup -->
+@if (showPreview()) {
+<div class="preview-overlay" (click)="closePreview()">
+  <div class="preview-popup" (click)="$event.stopPropagation()">
+    <div class="preview-header">
+      <span>{{ previewFileName() }}</span>
+      <button type="button" class="close-button" (click)="closePreview()">×</button>
+    </div>
+    <div class="preview-body">
+      @if (previewFileType().startsWith('image/')) {
+      <img [src]="previewUrl()" [alt]="previewFileName()" class="image-preview">
+      }
+      @else {
+      <div class="unsupported-file">
+        <h3>Preview not available</h3>
+        <p>{{ previewFileName() }}</p>
+      </div>
+      }
+    </div>
+  </div>
+</div>
+}
