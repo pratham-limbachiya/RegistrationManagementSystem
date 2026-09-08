@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\RegistrationManagementsysten\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\service\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\service\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\interface\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\interface\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\helper\\commonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\helper\\commonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\interface\\iregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\interface\\iregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\model\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\model\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\model\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\model\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\validaton\\registrationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\validaton\\registrationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\helper\\modelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\helper\\modelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|d:\\git\\registrationmanagementsysten\\backend\\managementsystem\\helper\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D07C126-CFCA-4907-B3F4-0300203FEC30}|Managementsystem\\Managementsystem.csproj|solutionrelative:managementsystem\\helper\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRegistrationService.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Interface\\IRegistrationService.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Interface\\IRegistrationService.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Interface\\IRegistrationService.cs",
+              "RelativeToolTip": "Managementsystem\\Interface\\IRegistrationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T06:27:50.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Managementsystem\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAlwE8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T13:24:39.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Controllers\\RegistrationController.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "Managementsystem\\Controllers\\RegistrationController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAD4vzoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T16:55:23.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationService.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Service\\RegistrationService.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Service\\RegistrationService.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Service\\RegistrationService.cs",
+              "RelativeToolTip": "Managementsystem\\Service\\RegistrationService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAD4v0AAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T15:39:34.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommonHelper.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Helper\\CommonHelper.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Helper\\CommonHelper.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Helper\\CommonHelper.cs",
+              "RelativeToolTip": "Managementsystem\\Helper\\CommonHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T13:30:46.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Service\\LoginService.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Service\\LoginService.cs",
+              "RelativeToolTip": "Managementsystem\\Service\\LoginService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T13:25:37.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Interface\\ILoginService.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Interface\\ILoginService.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Interface\\ILoginService.cs",
+              "RelativeToolTip": "Managementsystem\\Interface\\ILoginService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T06:27:50.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Model\\Registration.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Model\\Registration.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Model\\Registration.cs",
+              "RelativeToolTip": "Managementsystem\\Model\\Registration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:53:22.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Model\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Model\\LoginRequest.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Model\\LoginRequest.cs",
+              "RelativeToolTip": "Managementsystem\\Model\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T06:27:55.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Program.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Program.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Program.cs",
+              "RelativeToolTip": "Managementsystem\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T04:51:44.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\WeatherForecast.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\WeatherForecast.cs",
+              "RelativeToolTip": "Managementsystem\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T04:51:43.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ModelValidator.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Helper\\ModelValidator.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Helper\\ModelValidator.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Helper\\ModelValidator.cs",
+              "RelativeToolTip": "Managementsystem\\Helper\\ModelValidator.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwCcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T12:56:12.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistrationValidator.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Validaton\\RegistrationValidator.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Validaton\\RegistrationValidator.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Validaton\\RegistrationValidator.cs",
+              "RelativeToolTip": "Managementsystem\\Validaton\\RegistrationValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T07:29:41.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SqlHelper.cs",
+              "DocumentMoniker": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Helper\\SqlHelper.cs",
+              "RelativeDocumentMoniker": "Managementsystem\\Helper\\SqlHelper.cs",
+              "ToolTip": "D:\\git\\RegistrationManagementsysten\\Backend\\Managementsystem\\Helper\\SqlHelper.cs",
+              "RelativeToolTip": "Managementsystem\\Helper\\SqlHelper.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAwEYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T12:48:35.573Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
